@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/HenryBooks">
+    <Resource name = "jdbc/henrybooks_is288"
+      driverClassName = "com.mysql.jdbc.Driver"
+      url = "jdbc:mysql://localhost:3306/henrybooks_is288"
+      username = "root"
+      password = "sesame"
+      auth = "Container"
+      maxActive = "100"
+      maxIdle = "30"
+      maxWait = "10000"
+      logAbandoned = "false"
+      removeAbandoned = "true"
+      removeAbandonedTimeout = "60"
+      type = "javax.sql.DataSource" />    
+</Context>
