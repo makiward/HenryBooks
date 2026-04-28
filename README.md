@@ -37,6 +37,8 @@ A web-based application for managing bookstore inventory across multiple store l
 ```bash
 git clone https://github.com/makiward/HenryBooks.git
 cd HenryBooks
+```
+
 - Set up the MySQL database:
   - Create a database
   - Import the provided schema (if applicable)
